@@ -2,10 +2,9 @@ header {
   text-align: center;
 }
 
-.nav.bar {
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: gray;
+.nav-link {
+  background-color: grey;
+  margin: 0 5px;
 }
 
 body {
@@ -25,7 +24,26 @@ figcaption {
   text-align: center;
 }
 
- {
-  width: 800px;
+.paragraph {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+
+
+#details {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
 }
